@@ -36,7 +36,7 @@ class RestaurantDetail extends StatelessWidget {
                 PrintText(Restaurant),
                 SizedBox(height: ScreenSize.height / 40),
 
-                Center(child: Text('Webページに飛ぶ？')),
+                Center(child: Text('Webページに飛ぶ？',style: TextStyle(fontSize: FontSizeBig))),
                 SizedBox(height: ScreenSize.height / 40),
 
                 Center(

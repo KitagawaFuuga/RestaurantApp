@@ -8,6 +8,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 final List<bool> RestrauntFavoriteList = List.generate(CheckListValue.length, (index) => false);
 final List<String> CheckListValue = ['Wifiあり', '子どもOK', 'カード利用可', '個室あり'];
 Size ScreenSize = Size(0, 0);
+double FontSizeBig = 20;
+double FontSizeMedium = 20;
 
 Future<SharedPreferences> GetSharedPreferences() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
